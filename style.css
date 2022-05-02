@@ -1,0 +1,85 @@
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: url(images/bg-intro-desktop.png);
+    background-color: #f0847c;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+button {
+    background-color: hsl(154, 59%, 51%) !important;
+    box-shadow: 0 3px 0 #77b295;
+}
+
+.form-text a {
+    color: #f0847c;
+}
+
+.form-text {
+    font-size: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#form-group h1 {
+    font-size: 3rem;
+}
+
+#main {
+    height: 100vh;
+}
+
+#text-group {
+    max-width: 550px;
+}
+
+#message {
+    font-weight: 500;
+    background-color: hsl(248, 32%, 49%);
+    color: hsl(246, 25%, 77%);
+    border-radius: 8px;
+    line-height: 1.8;
+}
+
+#message span {
+    color: white;
+    font-weight: 900;
+}
+
+#form {
+    border-radius: 8px;
+    padding: 30px;
+}
+
+#form div input, #form button {
+    padding: 15px 20px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#form div input:hover {
+    border-color: rgba(128, 128, 128, 0.781);
+}
+
+#form div input:focus {
+    box-shadow: none;
+    border-color: hsl(248, 32%, 49%);
+}
+
+@media (max-width: 390px) {
+    #form-group h1 {
+        font-size: 1.7rem;
+        margin-top: 40px;
+    }
+
+    #form {
+        padding: 25px;
+    }
+
+    #message {
+        padding: 40px;
+    }
+}
